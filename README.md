@@ -1,1 +1,1 @@
-# Plasticity-Driven-SNN
+# Plasticity-Driven-Spiking-Neural-Network
