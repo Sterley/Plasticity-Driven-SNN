@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/labady/Documents/PR1/results/neuro_evo_test/simulation/run_files/run_optimizee.py", line 12, in <module>
+    res = optimizee.simulate(trajectory)
+  File "/home/labady/Learning2Learning/L2L/l2l/optimizees/cp_gym/optimizee_cp.py", line 221, in simulate
+    test_network.reset_activators_and_recorders()
+  File "/home/labady/Learning2Learning/L2L/l2l/optimizees/cp_gym/optimizee_cp.py", line 99, in reset_activators_and_recorders
+    nest.SetStatus(self.activator_velocity[n], [{'amplitude':0.0}])            
+  File "/opt/nest/lib/python3.8/site-packages/nest/ll_api.py", line 216, in stack_checker_func
+    return f(*args, **kwargs)
+  File "/opt/nest/lib/python3.8/site-packages/nest/lib/hl_api_info.py", line 269, in SetStatus
+    if len(nodes) == 0:
+  File "/opt/nest/lib/python3.8/site-packages/nest/lib/hl_api_types.py", line 305, in __len__
+    return sli_func("size", self._datum)
+  File "/opt/nest/lib/python3.8/site-packages/nest/ll_api.py", line 150, in sli_func
+    sli_push(args)  # push array of arguments on SLI stack
+KeyboardInterrupt

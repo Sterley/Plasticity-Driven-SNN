@@ -1,0 +1,2 @@
+2023-12-04 01:20:55,012 bin.l2l labady-pc 20370 INFO    : Optimizee parameters: NeuroEvoOptimizeeMCParameters(path='/home/labady/Documents/PR/results', seed=1, save_n_generation=10, run_headless=True, load_parameter=False)
+2023-12-04 01:20:55,013 bin.l2l labady-pc 20370 INFO    : Optimizer parameters: GeneticAlgorithmParameters(seed=1580211, pop_size=32, cx_prob=0.7, mut_prob=0.7, n_iteration=1000, ind_prob=0.45, tourn_size=4, mate_par=0.5, mut_par=1)

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jube>
+  <benchmark name="l2l_inner_loop" outpath="bench_run">
+    <parameterset name="l2l_parameters">
+      <parameter name="index" type="int">0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31</parameter>
+    </parameterset>
+
+    <!-- benchmark configuration -->
+    <!-- Job configuration -->
+    <parameterset name="execute_set">
+    <parameter name="exec">python3.8 /home/labady/Documents/PR/results/NeuroEvo_ES_2023-12-04-01_20_54/simulation/run_files/run_optimizee.py</parameter>
+    <parameter name="tasks_per_job">1</parameter>
+    </parameterset>
+    <!-- Operation -->
+    <step name="submit" work_dir="/home/labady/Documents/PR/results/NeuroEvo_ES_2023-12-04-01_20_54/simulation/work/jobsystem_bench_${jube_benchmark_id}_${jube_wp_id}" >
+    <use>l2l_parameters</use>
+    <use>execute_set</use>
+    <do done_file="/home/labady/Documents/PR/results/NeuroEvo_ES_2023-12-04-01_20_54/simulation/ready_files/ready_w_73">$exec $index 73 -n $tasks_per_job </do> <!-- shell command -->
+    </step>   
+  </benchmark>
+</jube>

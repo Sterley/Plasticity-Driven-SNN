@@ -1,0 +1,70 @@
+2024-03-08 08:23:20,535 bin.l2l labady-pc 35566 INFO    : Optimizee parameters: NeuroEvoOptimizeeMCParameters(path='/home/labady/Documents/PR4/crossentropy_results', seed=1, save_n_generation=10, run_headless=True, load_parameter=False)
+2024-03-08 08:23:20,535 bin.l2l labady-pc 35566 INFO    : Optimizer parameters: CrossEntropyParameters(pop_size=50, rho=0.2, smoothing=0.7, temp_decay=0.95, n_iteration=100, distribution=<__main__.Gaussian object at 0x7f611294bb50>, stop_criterion=0.1, seed=12345678)
+2024-03-08 08:31:59,283 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 0 --
+2024-03-08 08:31:59,283 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 08:31:59,283 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.2028
+2024-03-08 08:31:59,283 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.3967
+2024-03-08 08:40:19,432 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 1 --
+2024-03-08 08:40:19,432 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 08:40:19,432 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.2614
+2024-03-08 08:40:19,433 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4168
+2024-03-08 08:48:41,492 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 2 --
+2024-03-08 08:48:41,492 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 08:48:41,492 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.2146
+2024-03-08 08:48:41,492 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4073
+2024-03-08 08:57:10,212 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 3 --
+2024-03-08 08:57:10,212 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 08:57:10,212 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.2338
+2024-03-08 08:57:10,212 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4139
+2024-03-08 09:05:30,722 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 4 --
+2024-03-08 09:05:30,722 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 09:05:30,722 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.2521
+2024-03-08 09:05:30,722 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4326
+2024-03-08 09:13:53,843 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 5 --
+2024-03-08 09:13:53,843 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 09:13:53,843 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.2193
+2024-03-08 09:13:53,843 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4170
+2024-03-08 09:22:16,930 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 6 --
+2024-03-08 09:22:16,930 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 09:22:16,930 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.2365
+2024-03-08 09:22:16,930 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4336
+2024-03-08 09:30:42,738 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 7 --
+2024-03-08 09:30:42,738 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 09:30:42,738 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.2628
+2024-03-08 09:30:42,738 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4077
+2024-03-08 09:39:08,254 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 8 --
+2024-03-08 09:39:08,254 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 09:39:08,254 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.2654
+2024-03-08 09:39:08,254 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4133
+2024-03-08 09:47:50,879 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 9 --
+2024-03-08 09:47:50,879 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 09:47:50,879 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.2141
+2024-03-08 09:47:50,880 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4135
+2024-03-08 09:56:51,533 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 10 --
+2024-03-08 09:56:51,533 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 09:56:51,533 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.2369
+2024-03-08 09:56:51,534 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4358
+2024-03-08 10:06:26,598 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 11 --
+2024-03-08 10:06:26,598 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 10:06:26,598 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.2402
+2024-03-08 10:06:26,598 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4307
+2024-03-08 10:16:16,869 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 12 --
+2024-03-08 10:16:16,869 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 10:16:16,869 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.3064
+2024-03-08 10:16:16,870 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4381
+2024-03-08 10:25:58,242 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 13 --
+2024-03-08 10:25:58,242 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 10:25:58,242 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.1752
+2024-03-08 10:25:58,242 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4321
+2024-03-08 10:35:43,121 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 14 --
+2024-03-08 10:35:43,122 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 10:35:43,122 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.1926
+2024-03-08 10:35:43,122 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4315
+2024-03-08 10:45:15,571 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 15 --
+2024-03-08 10:45:15,571 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 10:45:15,571 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.2112
+2024-03-08 10:45:15,571 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4403
+2024-03-08 10:55:48,285 optimizers.crossentropy labady-pc 35566 INFO    : -- End of generation 16 --
+2024-03-08 10:55:48,286 optimizers.crossentropy labady-pc 35566 INFO    :   Evaluated 50 individuals
+2024-03-08 10:55:48,286 optimizers.crossentropy labady-pc 35566 INFO    :   Best Fitness: -0.2730
+2024-03-08 10:55:48,286 optimizers.crossentropy labady-pc 35566 INFO    :   Average Fitness: -0.4100

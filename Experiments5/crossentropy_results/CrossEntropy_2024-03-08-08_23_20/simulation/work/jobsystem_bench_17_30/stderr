@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/labady/Documents/PR4/crossentropy_results/CrossEntropy_2024-03-08-08_23_20/simulation/run_files/run_optimizee.py", line 12, in <module>
+    res = optimizee.simulate(trajectory)
+  File "/home/labady/Learning2Learning/L2L/l2l/optimizees/mc_gym/optimizee_mc.py", line 198, in simulate
+    test_network.reset_activators_and_recorders()
+  File "/home/labady/Learning2Learning/L2L/l2l/optimizees/mc_gym/optimizee_mc.py", line 74, in reset_activators_and_recorders
+    nest.SetStatus(self.activator_position[n], [{'amplitude':0.0}])            
+  File "/opt/nest/lib/python3.8/site-packages/nest/lib/hl_api_types.py", line 253, in __getitem__
+    return sli_func("Take_g_a", self._datum, [key, key + 1, 1])
+  File "/opt/nest/lib/python3.8/site-packages/nest/ll_api.py", line 153, in sli_func
+    result = sli_pop()  # return value is an array
+  File "pynestkernel.pyx", line 240, in pynestkernel.NESTEngine.pop
+  File "pynestkernel.pyx", line 519, in pynestkernel.sli_datum_to_object
+  File "pynestkernel.pyx", line 578, in pynestkernel.sli_array_to_object
+  File "pynestkernel.pyx", line 541, in pynestkernel.sli_datum_to_object
+  File "/opt/nest/lib/python3.8/site-packages/nest/lib/hl_api_types.py", line 208, in __init__
+    self._datum = data
+  File "/opt/nest/lib/python3.8/site-packages/nest/lib/hl_api_types.py", line 569, in __setattr__
+    super().__setattr__(attr, value)
+KeyboardInterrupt
