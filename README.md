@@ -4,4 +4,4 @@ This study explores the optimization of SNNs using GAs to address the MC problem
 ## Keywords — 
 Spiking Neural Networks (SNNs), Genetic Algorithms (GAs), Reinforcement Learning (RL), Spike-Timing-Dependent Plasticity (STDP), Learning to learn (L2L), Mountain Car (MC), Machine Learning (ML), Artificial Neural Networks (ANNs), Leaky Integrate-and-Fire (LIF), Neural Simulation Tool (NEST)
 
-### For more information, see the report !
+### For more information, please read the report.
